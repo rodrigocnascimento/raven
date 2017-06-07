@@ -12,5 +12,8 @@
     "automation"
   ],
   "author": "Rodrigo Nascimento rodrigoc@protonmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "httpster": "^1.0.3"
+  }
 }

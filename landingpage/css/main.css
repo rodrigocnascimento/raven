@@ -15,12 +15,12 @@ button,
 input,
 select,
 textarea {
-  color: #222;
+	color: #222;
 }
 
 html {
-  font-size: 1em;
-  line-height: 1.4;
+	font-size: 1em;
+	line-height: 1.4;
 }
 
 /*
@@ -30,13 +30,13 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 /*
@@ -44,12 +44,12 @@ html {
  */
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
 /*
@@ -61,7 +61,7 @@ audio,
 canvas,
 img,
 video {
-  vertical-align: middle;
+	vertical-align: middle;
 }
 
 /*
@@ -69,9 +69,9 @@ video {
  */
 
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /*
@@ -79,7 +79,7 @@ fieldset {
  */
 
 textarea {
-  resize: vertical;
+	resize: vertical;
 }
 
 /* ==========================================================================
@@ -87,17 +87,17 @@ Browse Happy prompt
 ========================================================================== */
 
 .browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
 }
 
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
 .header-menu-padding {
-  margin: 25px 35px 0px 25px;
+	margin: 25px 35px 0px 25px;
 }
 
 
@@ -124,27 +124,27 @@ Helper classes
  */
 
 .ir {
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  /* IE 6/7 fallback */
-            *text-indent: -9999px;
-          }
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	/* IE 6/7 fallback */
+						*text-indent: -9999px;
+					}
 
-          .ir:before {
-            content: "";
-            display: block;
-            width: 0;
-            height: 150%;
-          }
+					.ir:before {
+						content: "";
+						display: block;
+						width: 0;
+						height: 150%;
+					}
 
-          /*
-           * Hide from both screenreaders and browsers: h5bp.com/u
-           */
+					/*
+					 * Hide from both screenreaders and browsers: h5bp.com/u
+					 */
 
 .hidden {
-  display: none !important;
-  visibility: hidden;
+	display: none !important;
+	visibility: hidden;
 }
 
 /*
@@ -152,14 +152,14 @@ Helper classes
  */
 
 .visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
 
 /*
@@ -169,12 +169,12 @@ Helper classes
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
 }
 
 /*
@@ -182,7 +182,7 @@ Helper classes
  */
 
 .invisible {
-  visibility: hidden;
+	visibility: hidden;
 }
 
 /*
@@ -199,12 +199,12 @@ Helper classes
 
 .clearfix:before,
 .clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+	content: " "; /* 1 */
+	display: table; /* 2 */
 }
 
 .clearfix:after {
-  clear: both;
+	clear: both;
 }
 
 /*
@@ -213,7 +213,7 @@ Helper classes
  */
 
 .clearfix {
-  *zoom: 1;
+	*zoom: 1;
 }
 
 /* ==========================================================================
@@ -223,14 +223,14 @@ Modify as content requires.
 ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+	/* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
 (-o-min-device-pixel-ratio: 5/4),
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+	/* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -239,69 +239,69 @@ Inlined to avoid required HTTP connection: h5bp.com/r
 ========================================================================== */
 
 @media print {
-  * {
-    background: transparent !important;
-    color: #000 !important; /* Black prints faster: h5bp.com/s */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
+	* {
+		background: transparent !important;
+		color: #000 !important; /* Black prints faster: h5bp.com/s */
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
 
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
 
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
+	a[href]:after {
+		content: " (" attr(href) ")";
+	}
 
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
+	abbr[title]:after {
+		content: " (" attr(title) ")";
+	}
 
-  /*
-   * Don't show links for images, or javascript/internal links
-   */
+	/*
+	 * Don't show links for images, or javascript/internal links
+	 */
 
 .ir a:after,
 a[href^="javascript:"]:after,
 a[href^="#"]:after {
-  content: "";
+	content: "";
 }
 
 pre,
 blockquote {
-  border: 1px solid #999;
-  page-break-inside: avoid;
+	border: 1px solid #999;
+	page-break-inside: avoid;
 }
 
 thead {
-  display: table-header-group; /* h5bp.com/t */
+	display: table-header-group; /* h5bp.com/t */
 }
 
 tr,
 img {
-  page-break-inside: avoid;
+	page-break-inside: avoid;
 }
 
 img {
-  max-width: 100% !important;
+	max-width: 100% !important;
 }
 
 @page {
-  margin: 0.5cm;
+	margin: 0.5cm;
 }
 
 p,
 h2,
 h3 {
-  orphans: 3;
-  widows: 3;
+	orphans: 3;
+	widows: 3;
 }
 
 h2,
 h3 {
-  page-break-after: avoid;
+	page-break-after: avoid;
 }
 }
 
@@ -366,10 +366,10 @@ header close
 #slider .block{}
 #slider .block h2{color: #fff;font-family: 'Raleway', sans-serif; font-weight: 700; margin:0px; font-size: 36px}
 .slider-text-area{}
-.sub-slider-text{margin: 0px; font-size: 36px; color:#C7D0D5;font-family: 'Raleway', sans-serif; font-weight: 300;line-height: 43px;}
-.slider-p{margin: 0px; color:#90BBC5; font-size: 14px;padding-top: 40px}
-.edit-button-1{background: none; border: 3px solid #91B1B5;  color: #FFF; font-family: 'Raleway', sans-serif; font-weight: 700; border-radius: 30px;padding: 10px 52px; display: block; overflow: heidden; margin-top: 50px}
-.edit-button-1:hover{background: none; color: #fff; border: 3px solid #91B1B5;}
+.sub-slider-text{margin: 0px; font-size: 36px; color:#C7D0D5;font-family: 'Raleway', sans-serif; line-height: 43px;}
+.slider-p{margin: 0px; color:#C7D0D5; font-size: 14px;padding-top: 40px}
+.edit-button-1{width: 300px;background: #d80f53; border: 3px solid #d96f93;  color: #FFF; font-family: 'Raleway', sans-serif; font-weight: 300; border-radius: 30px;padding: 10px 52px; display: block; overflow: hidden; margin-top: 50px}
+.edit-button-1:hover{background: #d96f93; color: #fff; border: 3px solid #d80f53;}
 
 /*=========================
 slider close
@@ -379,11 +379,11 @@ slider close
 4) Service Start
 ===========================*/
 
-#service{ padding: 96px 0px;}
-#service .block-top{text-align: center;}
-#service .service-header{margin: 0px}
-#service .service-header h1{color:#636C6C; font-size: 36px; font-family: 'Raleway', sans-serif; font-weight: 700; }
-#service .service-header p{color:#AFB8B8; font-size: 16px; font-family: 'Raleway', sans-serif; font-weight: 400; line-height: 24px}
+#como-eu-vou-ajudar{ padding: 96px 0px;}
+#como-eu-vou-ajudar .block-top{text-align: center;}
+#como-eu-vou-ajudar .service-header{margin: 0px}
+#como-eu-vou-ajudar .service-header h1{color:#d96f93; font-size: 36px; font-family: 'Raleway', sans-serif; font-weight: 700; }
+#como-eu-vou-ajudar .service-header p{color:#AFB8B8; font-size: 16px; font-family: 'Raleway', sans-serif; font-weight: 400; line-height: 24px}
 
 /*=========================
 Service closes
@@ -397,9 +397,9 @@ Service closes
 .block-left{}
 .contant-1-text-area{padding-top: 80px}
 .contant-1-head:after{background: #949C9C;
-  content: "";
-  height: 2px;
-  position: absolute;
+	content: "";
+	height: 2px;
+	position: absolute;
 width: 102px;}
 .contant-1-head h1{ font-size: 36px;font-family: 'Raleway', sans-serif; font-weight: 700;color: #5DCA88;}
 .contant-1-text{padding-top: 40px}
@@ -450,18 +450,18 @@ Gallery close
 7) Contant-2 Start
 ===========================*/
 
-#contant-2{background: #F2F9FE;padding: 80px 0px}
-#contant-2 .block-left{}
+#como-eu-faco-isso{background: #F2F9FE;padding: 80px 0px}
+#como-eu-faco-isso .block-left{}
 .contant-2-img{}
-#contant-2 .block-right{}
+#como-eu-faco-isso .block-right{}
 .contant-2-text-area{padding-top: 102px;}
 .contant-2-text-area:{}
 .contant-2-header:after{background: #949C9C;
-  content: "";
-  height: 2px;
-  position: absolute;
+	content: "";
+	height: 2px;
+	position: absolute;
 width: 102px;}
-.contant-2-header h1{font-size: 36px;font-family: 'Raleway', sans-serif; font-weight: 700;color: #5DCA88;}
+.contant-2-header h1{font-size: 36px;font-family: 'Raleway', sans-serif; font-weight: 700;color: #d96f93;}
 .contant-2-text{padding-top: 40px}
 .contant-2-text h2{color:#8C9494; font-size: 35px; font-family: 'Raleway', sans-serif; font-weight: 400; padding-bottom: 25px}
 .contant-2-text p{color:#ABB2B4; font-size: 16px; font-family: 'Raleway', sans-serif; font-weight: 400; margin:0px;}
@@ -492,10 +492,10 @@ Contant-2 close
 #testimonial .owl-carousel .owl-controls{}
 #testimonial .owl-carousel .owl-controls .owl-pagination{text-align: center}
 #testimonial .owl-carousel .owl-controls .owl-pagination div{background:#8c9494;
-  border-radius: 500px;
-  display: inline-block;
-  height: 11px;
-  margin: 0 5px;
+	border-radius: 500px;
+	display: inline-block;
+	height: 11px;
+	margin: 0 5px;
 width: 11px;}
 #testimonial .owl-carousel .owl-controls .owl-pagination  div.active{background: #5DCA88}
 
@@ -507,8 +507,8 @@ testimonial CLOSE
 9) Submit Start
 ===========================*/
 
-#submit-area{ background: #F3F5F5; padding-top: 90px; padding-bottom: 120px}
-#submit-area .block{}
+#venda-mais{ background: #F3F5F5; padding-top: 90px; padding-bottom: 120px}
+#venda-mais .block{}
 .submit-contant{}
 .submit-header{text-align: center; padding-bottom: 50px; }
 .submit-header i{ font-size: 36px; margin-right: 20px; color: #8C9494;}
@@ -516,13 +516,31 @@ testimonial CLOSE
 .submit-area{margin-left: 180px;}
 .submit-bottom{border: 2px solid #BBC3C2; float: left;  border-radius: 40px;height: 71px; background: #FFFFFF}
 .submit-bottom form{}
-.submit-bottom form input[type=text]{border: medium none;
-  height: 56px;
-  margin-left: 24px;
-  font-size: 14px; color:#8C9494; font-family: 'Raleway', sans-serif; font-weight: 400;
-background: #FFFFFF; width: 555px;}
-.submit-bottom form input[type=submit]{border: none; padding: 21px 55px; background: #5DCA88; color:#fff; font-size: 20px;font-family: 'Proxima Nova Regular'; font-weight: 700; text-transform: uppercase;border-radius: 40px;}
 
+.submit-bottom form input[type=text]{border: medium none;
+	height: 56px;
+	margin-left: 24px;
+	font-size: 14px; color:#8C9494; font-family: 'Raleway', sans-serif; font-weight: 400;
+background: #FFFFFF; width: 555px;}
+
+.call-to-action {
+	padding: 15px 50px; 
+	color:#fff; 
+	font-size: 20px;
+	font-family: 'Raleway'; 
+	font-weight: 100; 
+	text-transform: uppercase;
+	border-radius: 40px;
+	margin:2px;
+	background-color: #d96f93;
+	border: 2px solid #ffd3e2;
+}
+.call-to-action:hover {
+	background-color: #ffd3e2; 
+	border: 2px solid #d96f93; 
+	font-weight: 500;
+	color: #d96f93;
+}
 /*=========================
 Submit CLOSE
 ===========================*/
@@ -538,11 +556,11 @@ Submit CLOSE
 .social-icon{}
 .social-icon a{margin-right: 10px;}
 .social-icon a i{background: #5d6461;
-  border-radius: 500px;
-  color: #2d312f;
-  font-size: 20px;
-  height: 42px;
-  padding-top: 11px;
+	border-radius: 500px;
+	color: #2d312f;
+	font-size: 20px;
+	height: 42px;
+	padding-top: 11px;
 width: 42px;}
 .support-link{padding-top: 70px;}
 .support-link ul{margin:0px; padding: 0px; list-style: none;}
@@ -554,14 +572,15 @@ footer CLOSE
 ===========================*/
 
 
-#service .block-bottom{}
-#service .service-tab{}
-#service .service-tab ul{float: left;list-style: outside none none;padding: 0;margin-right: 150px;}
-#service .service-tab ul li{ border-right: 1px solid #DBE2E2;}
-#service .service-tab ul li a{color: #9FA9A9; padding-top: 23px; padding-bottom: 17px;font-size: 20px; font-family: 'Raleway', sans-serif; font-weight: 400;display: block; padding-right: 60px}
-#service .service-tab ul li a i{font-size: 45px; margin-right: 40px; position: relative;top: 10px;}
-#service .service-tab ul li a:hover{border-right: 10px solid #5DCA88;padding-right: 50px}
-#service .service-tab ul li a:hover i{color: #5DCA88}
+#como-eu-vou-ajudar .block-bottom{}
+#como-eu-vou-ajudar .service-tab{color: #d96f93}
+#como-eu-vou-ajudar .service-tab ul{float: left;list-style: outside none none;padding: 0;margin-right: 150px;}
+#como-eu-vou-ajudar .service-tab ul li{ border-right: 1px solid #d96f93;}
+#como-eu-vou-ajudar .srvice-tab ul li.active a {color: #d96f93}
+#como-eu-vou-ajudar .service-tab ul li a{color: #ffd3e2; padding-top: 23px; padding-bottom: 17px;font-size: 20px; font-family: 'Raleway', sans-serif; font-weight: 400;display: block; padding-right: 60px}
+#como-eu-vou-ajudar .service-tab ul li a i{color:#ffd3e2;font-size: 45px; margin-right: 40px; position: relative;top: 10px;}
+#como-eu-vou-ajudar .service-tab ul li a:hover{border-right: 10px solid #d96f93;color:#d96f93;padding-right: 50px}
+#como-eu-vou-ajudar .service-tab ul li a:hover i{color: #d96f93}
 
 .edit-tab{overflow: hidden;}
 .edit-tab h1{color: #636C6C; font-size: 24px; font-family: 'Raleway', sans-serif; font-weight: 700; margin: 0px;margin: 0px;padding-bottom: 30px; padding-top:50px;}

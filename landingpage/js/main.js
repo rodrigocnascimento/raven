@@ -1,24 +1,20 @@
-$(document).ready(function(){
-	 $("#owl-demo").owlCarousel({
-		 
-		autoPlay: 3000, //Set AutoPlay to 3 seconds
-		 
-		items : 3,
-		itemsDesktop : [1199,3],
-		itemsDesktopSmall : [979,3],
-		navigation: true,
-		navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
-		 
-	});
-	
-	 $("#slide-testimonial").owlCarousel({
-		 
-		autoPlay: 3000, //Set AutoPlay to 3 seconds
-		 
-		singleItem:true,
-		pagination: true,
-		 
-	});
-	
-	$('#menu').slicknav();
-});
+;$(document).ready(function(){
+  $('.badhon-tab li').on('click', function() {
+    var $this = $(this)
+
+    $('.badhon-tab').each(function() {
+      $children = $(this).children()
+      $children.find('a').css({
+        color: '#ffd3e2',
+        border: 'none',
+      })
+      $children.find('i').css({color: '#ffd3e2'})
+    })
+
+    $this.find('a').css({
+      color: '#d96f93',
+      borderRight: '10px solid #d96f93',
+    })
+    $this.find('i').css({color: '#d96f93'})
+  })
+})

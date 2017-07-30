@@ -5,6 +5,8 @@ gulp.task('bs', () => {
   bs.init({
     server: {
       baseDir: './'
-    }
+    },
+    port: 8080,
   })
 })
+

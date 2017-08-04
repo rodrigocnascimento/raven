@@ -369,7 +369,7 @@ header close
 .slider-p{margin: 0px; color:#C7D0D5; font-size: 14px;padding-top: 40px}
 .edit-button-1{width: 300px;background: #d80f53; border: 3px solid #d96f93;  color: #FFF; font-family: 'Raleway', sans-serif; font-weight: 300; border-radius: 30px;padding: 10px 52px; display: block; overflow: hidden; margin-top: 50px}
 .edit-button-1:hover{background: #d96f93; color: #fff; border: 3px solid #d80f53;}
-
+.call-to-action-text{width:350px;padding: 15px 15px 15px 25px; color:#fff; background-color: #d96f93;}
 /*=========================
 slider close
 ===========================*/
@@ -378,9 +378,9 @@ slider close
 4) Service Start
 ===========================*/
 
-#como-eu-vou-ajudar{ padding: 96px 0px;}
+#como-eu-vou-ajudar{ }
 #como-eu-vou-ajudar .block-top{text-align: center;}
-#como-eu-vou-ajudar .service-header{margin: 0px}
+#como-eu-vou-ajudar .service-header{margin-top: 20px}
 #como-eu-vou-ajudar .service-header h1{color:#d96f93; font-size: 36px; font-family: 'Raleway', sans-serif; font-weight: 700; }
 #como-eu-vou-ajudar .service-header p{color:#AFB8B8; font-size: 16px; font-family: 'Raleway', sans-serif; font-weight: 400; line-height: 24px}
 

@@ -585,6 +585,19 @@ footer CLOSE
 .edit-tab-content{padding-top: 30px}
 
 
+.submit-success {
+  padding: 15px 50px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 100;
+  text-transform: uppercase;
+  border-radius: 40px;
+  margin: 2px;
+  background-color: #d96f93;
+  text-align: center;
+  border: 2px solid #ffd3e2; display: none;
+}
 
 
 

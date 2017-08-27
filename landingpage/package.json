@@ -19,6 +19,11 @@
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-bundle-assets": "^2.28.0",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-htmlclean": "^2.7.15",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^1.0.2"
   }
 }

@@ -453,7 +453,6 @@ Gallery close
 #como-eu-faco-isso .block-left{}
 .contant-2-img{}
 #como-eu-faco-isso .block-right{}
-.contant-2-text-area{padding-top: 102px;}
 .contant-2-text-area:{}
 .contant-2-header:after{background: #949C9C;
   content: "";
@@ -516,7 +515,7 @@ testimonial CLOSE
 .submit-bottom{border: 2px solid #BBC3C2; float: left;  border-radius: 40px;height: 71px; background: #FFFFFF}
 .submit-bottom form{}
 
-.submit-bottom form input[type=text]{border: medium none;
+.submit-bottom form input[type=email]{border: medium none;
   height: 56px;
   margin-left: 24px;
   font-size: 14px; color:#8C9494; font-family: 'Raleway', sans-serif; font-weight: 400;

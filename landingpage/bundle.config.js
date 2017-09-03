@@ -2,15 +2,14 @@ module.exports = {
   bundle: {
     main: {
       scripts: [
-        './js/main.js',
+        './dist/js/main.js',
       ],
-      styles: './css/**/*.css',
+      styles: './dist/css/**/*.css',
     },
     vendor: {
       scripts: [
-        './js/vendor/bootstrap.min.js',
-        './js/vendor/modernizr-2.6.2.min.js',
-        './js/vendor/tabs.js',
+        './dist/js/tabs.js',
+        './dist/js/bootstrap.min.js',
       ]
     }
   }

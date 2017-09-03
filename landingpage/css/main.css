@@ -511,15 +511,22 @@ testimonial CLOSE
 .submit-header{text-align: center; padding-bottom: 50px; }
 .submit-header i{ font-size: 36px; margin-right: 20px; color: #8C9494;}
 .submit-header h3{color:#8C9494; font-size: 36px; font-family: 'Raleway', sans-serif; font-weight: 700; display: inline}
-.submit-area{margin-left: 180px;}
-.submit-bottom{border: 2px solid #BBC3C2; float: left;  border-radius: 40px;height: 71px; background: #FFFFFF}
+.submit-area{}
+.submit-bottom{border: 2px solid #BBC3C2;  border-radius: 40px;height: 71px; background: #FFFFFF}
 .submit-bottom form{}
 
-.submit-bottom form input[type=email]{border: medium none;
-  height: 56px;
-  margin-left: 24px;
-  font-size: 14px; color:#8C9494; font-family: 'Raleway', sans-serif; font-weight: 400;
-background: #FFFFFF; width: 555px;}
+.submit-bottom form input[type=email]{
+  border: none;
+  height: 67px;
+  border-radius: 40px;
+  font-size: 14px;
+  color: #8C9494;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  background: #FFFFFF;
+  padding: 15px;
+  width: 100%;
+}
 
 .call-to-action {
   padding: 15px 50px; 
@@ -599,5 +606,17 @@ footer CLOSE
   border: 2px solid #ffd3e2; display: none;
 }
 
+.send-form {
+  top: 92px;
+  position: absolute;
+  right: 20px; 
+}
+
+.send-btn-mobile {
+  bottom: 2px;
+  position: absolute;
+  right: 20px;
+  padding: 15px 20px!important;
+}
 
 
